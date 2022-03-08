@@ -41,12 +41,12 @@ td {
   border: solid 2px black;
   padding: 4px;
   background-color: rgb(121, 121, 121);
-  color: white;
+  
 }
 th {
   text-align: left;
-  background-color: rgb(165, 162, 162);
-  color: white;
+  background-color: rgb(109, 67, 67);
+  color: rgb(15, 7, 7);
 }
 #settings {
   width: 200px;
@@ -60,7 +60,7 @@ th {
   align-items: center;
   text-align: center;
   background-color: rgb(54, 47, 46);
-  color: white;
+  color: rgb(39, 17, 17);
 }
 .Header > p {
   margin-left: 0px;
@@ -71,7 +71,7 @@ th {
   padding: 2px 0px 2px 0px;
   margin-top: 20px;
   background-color: rgb(54, 47, 46);
-  color: white;
+  color: rgb(73, 12, 12);
 }
 #logoHeader {
   margin-right: 10px;
@@ -135,12 +135,12 @@ td {
   border: solid 2px black;
   padding: 4px;
   background-color: rgb(121, 121, 121);
-  color: white;
+  color: rgb(12, 2, 2);
 }
 th {
   text-align: left;
   background-color: rgb(165, 162, 162);
-  color: white;
+  color: rgb(27, 4, 4);
 }
 #settings {
   width: 200px;
@@ -154,7 +154,7 @@ th {
   align-items: center;
   text-align: center;
   background-color: rgb(54, 47, 46);
-  color: white;
+  color: rgb(31, 5, 5);
 }
 .Header > p {
   margin-left: 0px;
@@ -186,4 +186,10 @@ th {
   td {
     word-break: break-all;
   }
+}
+
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
 }
